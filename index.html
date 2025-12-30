@@ -1,11 +1,91 @@
 <!DOCTYPE html>
-<html lang="zh-EN">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>LuSun Electronics</title>
+  <meta charset="UTF-8" />
+  <title>Bruce Sun | 个人网站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+      margin: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    a {
+      color: #0070f3;
+      text-decoration: none;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>LuSun Electronics</h1>
-  <p>Welcome to my website!</p>
+  <div class="container">
+
+    <header>
+      <h1>Bruce Sun</h1>
+      <p>硬件 / 嵌入式 / Web</p>
+      <p>
+        <a href="https://github.com/">GitHub</a> ·
+        <a href="mailto:your@email.com">Email</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>关于我</h2>
+      <div class="card">
+        <p>
+          我专注于嵌入式开发、硬件设计和 Web 技术，
+          熟悉 ESP8266、MQTT、PCB 设计等。
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>项目</h2>
+      <div class="card">
+        <strong>智能硬件控制系统</strong>
+        <p>ESP8266 + MQTT，实现远程控制。</p>
+      </div>
+
+      <div class="card">
+        <strong>个人网站</strong>
+        <p>基于 GitHub Pages 构建的零成本网站。</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>联系我</h2>
+      <div class="card">
+        <p>Email：your@email.com</p>
+      </div>
+    </section>
+
+  </div>
 </body>
 </html>
+
